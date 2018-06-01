@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<form method="get">
+	<table border="2px">
+		<tr>
+			<td>First Name:</td>
+			<td><input type="text" name="fname" required></td>
+		</tr>
+		<tr>
+			<td>Last Name:</td>
+			<td><input type="text" name="lname"></td>
+		</tr>
+		<tr>
+			<td>Age</td>
+			<td><input type="Number" name="Number" min="16" max="60"></td>
+		</tr>
+		<tr>
+			<td>Email:</td>
+			<td><input type="Email" name="Email"></td>
+		</tr>
+		<tr>
+			<td>Password:</td>
+			<td><input type="Password" name="Password"></td>
+		</tr>
+		<tr>
+			<td>Gender:</td>
+			<td><input type="radio" name="Gender" value="Male">Male<input type="radio" name="Gender" value="Female">Female</td>
+		</tr>
+		<tr>
+			<td>Enter Years:</td>
+			<td>
+			<select>
+				<option>Years</option>
+				<option>2015</option>
+				<option>2016</option>
+				<option>2017</option>
+				<option>2018</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Enter Course:</td>
+			<td><input type="checkbox" name="course" value="PHP">PHP <input type="checkbox" name="course" value="HTML">HTML</td>
+		</tr>
+		<tr>
+			<td>Enter Message:</td>
+			<td><textarea rows="6" cols="20"></textarea></td>
+		</tr>
+		<tr>
+				<td>Enter PhoneNumber:</td>
+				<td><input type="number" name="number" value="num"></td>
+			</tr>
+		<tr>
+		<tr>
+			<td>Enter Color:</td>
+			<td><input type="color" name="color"></td>
+		</tr>
+		<tr>
+			<td>Enter Url:</td>
+			<td><input type="url" name="URL" ></td>
+		</tr>
+		<tr>
+			<td>Enter File:</td>
+			<td><input type="file" name="File" value="File"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="Submit" value="Submit">
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<html>
+    <head>
+        <title>Test</title>
+        <meta charset="utf-8">
+        <style>
+            *{margin:0px;padding:0px;}
+            body{
+                background-color:rgb(104, 112, 107);
+            }
+            .container{
+                margin:auto;
+                width:980px;
+                background:rgb(181, 181, 209)
+            }
+            header{
+                padding:25px;
+                box-sizing:border-box;
+                background:blanchedalmond;
+                height:90px;
+            }
+            .logo{
+                float:left;
+            }
+            .phone{
+                float:right;
+            }
+            .i{
+                height:150;
+                width:40px;
+            }
+            nav{
+                background:blue;
+                height:40px;
+            }
+            nav ul{
+                padding:10px;
+                list-style-type: none;
+            }
+            nav ul li{
+                float:left;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color:white;
+                padding:11px;
+                
+                border-right: 1px solid rgb(118, 99, 228);
+            }
+            a.active, a:hover{
+                background-color: rgb(255, 0, 0);
+            }
+            .slider{
+                
+            }
+            .container-left{
+                padding-left:15px;
+                text-align: justify;
+                width: 50%;
+                float: left;
+            }
+            .container-right{
+                padding-right:20px;
+                text-align: justify;
+                width: 40%;
+                float:right;
+                padding-bottom: 50px;
+            }
+            .clr{clear:both;}
+            footer{
+                background: blue;
+                padding:25px;
+            }
+            .contact{
+                padding-top: 30px;
+                padding-bottom: 30px;
+                padding-left:30%
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+            <div class="logo">Logo</div>
+            <div class="phone">9871341345</div>
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href="test.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="ourservice.html">Our Service</a></li>
+                    <li><a href="contactus.html" class="active">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <div class="slider">
+                <img src="nature.jpg" width="980px">
+            </div>
+
+            <div class="contact">
+                    <form method="get">
+                            <table border="2px">
+                                <tr>
+                                    <td>First Name:</td>
+                                    <td><input type="text" name="fname" required></td>
+                                </tr>
+                                <tr>
+                                    <td>Last Name:</td>
+                                    <td><input type="text" name="lname"></td>
+                                </tr>
+                                <tr>
+                                    <td>Age</td>
+                                    <td><input type="Number" name="Number" min="16" max="60"></td>
+                                </tr>
+                                <tr>
+                                    <td>Email:</td>
+                                    <td><input type="Email" name="Email"></td>
+                                </tr>
+                                <tr>
+                                    <td>Password:</td>
+                                    <td><input type="Password" name="Password"></td>
+                                </tr>
+                                <tr>
+                                    <td>Gender:</td>
+                                    <td><input type="radio" name="Gender" value="Male">Male<input type="radio" name="Gender" value="Female">Female</td>
+                                </tr>
+                                <tr>
+                                    <td>Enter Years:</td>
+                                    <td>
+                                    <select>
+                                        <option>Years</option>
+                                        <option>2015</option>
+                                        <option>2016</option>
+                                        <option>2017</option>
+                                        <option>2018</option>
+                                    </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Enter Course:</td>
+                                    <td><input type="checkbox" name="course" value="PHP">PHP <input type="checkbox" name="course" value="HTML">HTML</td>
+                                </tr>
+                                <tr>
+                                    <td>Enter Message:</td>
+                                    <td><textarea rows="6" cols="20"></textarea></td>
+                                </tr>
+                                <tr>
+                                        <td>Enter PhoneNumber:</td>
+                                        <td><input type="number" name="number" value="num"></td>
+                                    </tr>
+                                <tr>
+                                <tr>
+                                    <td>Enter Color:</td>
+                                    <td><input type="color" name="color"></td>
+                                </tr>
+                                <tr>
+                                    <td>Enter Url:</td>
+                                    <td><input type="url" name="URL" ></td>
+                                </tr>
+                                <tr>
+                                    <td>Enter File:</td>
+                                    <td><input type="file" name="File" value="File"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="Submit" value="Submit">
+                                    </td>
+                                </tr>
+                            </table>
+                            </form>
+                        
+            </div>
+
+            <div class="clr"></div>
+
+            <footer>
+
+            </footer>
+
+        </div>
+    </body>
+</html>
